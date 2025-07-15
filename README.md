@@ -1,5 +1,5 @@
 ChatGPT Study Prompts
-The following prompts are custom‑built for creating study guides.
+The following prompts are custom‑built for creating study guides. The following text was written by a human and checked for grammar by an AI
 
 **Configuration Note**
 
