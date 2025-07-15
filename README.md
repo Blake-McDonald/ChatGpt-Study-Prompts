@@ -3,25 +3,24 @@ The following prompts are custom‑built for creating study guides.
 
 **Configuration Note**
 
--These prompts are shown in their original form, so some details may not fit every situation. Adjust the values as needed when using them elsewhere.
+These prompts are shown in their original form, so some details may not fit every situation. Adjust the values as needed when using them elsewhere.
 
 **Tested with the following configuration:**
-
+<ul>
 -Model: o3 in full Deep Research mode (not Light)
 
 -Sources: Official course documentation split into 50‑page, OCR‑searchable PDF chunks
-
+</ul>
 **Workflow (per query):**
-
+<ul>
 -Upload one 50‑page PDF directly to ChatGPT.
-
 -Disable web browsing.
-
 -Provide a Box link that contains only the same PDF.
-
 -After each query, replace the Box file with the next chunk and restate the initial prompt.
+</ul>
 
 **Reasoning**
+<ul>
 -Context window limits. ChatGPT can handle roughly 50 pages per pass. Splitting the document prevents the model from reading only a fraction of a large file. Because LLMs have a context‑window limit (about 4,096 tokens), they may ignore earlier content once that limit is reached.
 
 -OCR for accuracy. Making the PDFs OCR‑searchable lets the AI read every word, even inside diagrams. Without OCR, it would have to guess the text in images.
@@ -31,7 +30,7 @@ The following prompts are custom‑built for creating study guides.
 -Web browsing off. Disabling browsing limits hallucinations drawn from the internet. The Box account mirrors only the PDF already provided, so if the AI reaches out, it re‑reads the same file—an approach similar to Retrieval‑Augmented Generation that grounds answers in the source text.
 
 -Prompt repetition. Restating the initial prompt (sometimes along with prior results) reinforces the ruleset and reduces data duplication. Strict, consistent prompts also cut down on variability in the AI’s response
-
+</ul>
 <hr>
 
 **Custom Prompts**
