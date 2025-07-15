@@ -37,7 +37,7 @@ These prompts are shown in their original form, so some details may not fit ever
 
 - SC-200 Study Guide Multiple Choice Prompt: This prompt works best when given the official coursework and study guides from Microsoft:
    
-This prompt is rooted in metacognitive learning principles such as Blooms Leveling system, the aim is to make scenario based multiple choice questions that are able to challenge the student with logical choice making in various scenarios, the prompt also aims to minimize hallucination and ensure that provided answers do not stick to the same exact pattern ( ie the longest answer is always the correct one or the answers all being AAAA etc ) Of course you should ensure to check that the answers provided are acccurate and that there arent substantial patterns present that give away the answer without having to read the question 
+This prompt is grounded in metacognitive learning principles, including Bloom’s taxonomy. Its goal is to craft scenario‑based, multiple‑choice questions that push students to make sound logical decisions in varied contexts. It also aims to curb hallucinations and avoid predictable answer patterns for example, preventing the longest option from always being correct or the answers from lining up as A‑A‑A‑A. Finally, be sure to verify that every answer is accurate and that no obvious pattern gives it away without reading the question.
 
 <hr>
 
