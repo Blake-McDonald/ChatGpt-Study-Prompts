@@ -14,8 +14,14 @@ These prompts are shown in their original form, so some details may not fit ever
 **Workflow (per query):**
 <ul>
 -Upload one 50‑page PDF directly to ChatGPT.
+</ul>
+<ul>
 -Disable web browsing.
+</ul>
+<ul>
 -Provide a Box link that contains only the same PDF.
+</ul>
+<ul>
 -After each query, replace the Box file with the next chunk and restate the initial prompt.
 </ul>
 
