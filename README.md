@@ -1,14 +1,36 @@
-# ChatGpt-Study-Prompts
+ChatGPT Study Prompts
+The following prompts are custom‑built for creating study guides.
 
-The following prompts are ones that I have made custom to use for study guide making purposes
+**Configuration Note**
 
-*Configuration Note*:
+-These prompts are shown in their original form, so some details may not fit every situation. Adjust the values as needed when using them elsewhere.
 
-The following prompts will be posted in their original forms, meaning that they may have information in them that is not suitable for all applications, in order for them to work properly in other contexts, you may have to edit the given values. 
+**Tested with the following configuration:**
 
-Additionally when these prompts were made they were made with the following configuration: Model o3 in full Deep Research mode ( not light ), in order to get the optimal and most accurate responses I also provided the AI with official documentation of the course in question, split into several 50 page OCR searchable chunks per PDF. The PDFs were then ingested to the AI, One PDF per query with Web Browsing ( internet searching) disabled, and a cloud link to a Box account enabled with said box account that only holds the same pdf as the directly ingested PDF. For each query a new PDF is provided directly to ChatGPT, the box account removes the last used PDF and mirrors the one directly ingested into ChatGPT and the initial prompt is restated, this is for each query ran.
+-Model: o3 in full Deep Research mode (not Light)
 
-The reason for this is ChatGPT can only process a maximum of 50 Pages per pass, by dividing the pages it ensures that the AI will not only read part of the document ( say 10 pages of a 600 page document) this is due to LLMs Context Window which limits the amount of text measured in "tokens" if a conversation exceeds 4096 tokens then the LLM will forget or ignore past inputs or outputs. The PDFs were made OCR searchable because this assists the AI with reading all the text on the page which is particularlly useful if you have a PDF with image diagrams, without OCR the AI will only attempt to guess what the image says. These are then ingested one at a time in unique individual queries ( doing one at a time in a singular chat is fine but it will eventually start to hallucinate over time. ) this allows the AI to not get confused and keep its focus on one time. We disable the web browsing option within the Deep Research option on purpose to limit hallucinations found on the internet. The connected box account is filled with only the mirrored file of the file already directly provided to the AI to instill focus, the AI will try to infer something or look for information and may skip over it in the initally provided doc, it will then reach up to the Box account, read the only doc available and then essentially double check the document, this is used in Retrievak Augmented Generation techniques to ground the AI in factual data and to prevent guessing. Lastly the prompts created will then be restated for each query, in some cases along side the results of previous queries in order to instill the ruleset and prevent duplication of data LLMs can very often give you a different response when feeding it the same query, when giving it a strict prompt each time you query you lower the odds of the divergence being too great  
+-Sources: Official course documentation split into 50‑page, OCR‑searchable PDF chunks
+
+**Workflow (per query):**
+
+-Upload one 50‑page PDF directly to ChatGPT.
+
+-Disable web browsing.
+
+-Provide a Box link that contains only the same PDF.
+
+-After each query, replace the Box file with the next chunk and restate the initial prompt.
+
+**Reasoning**
+-Context window limits. ChatGPT can handle roughly 50 pages per pass. Splitting the document prevents the model from reading only a fraction of a large file. Because LLMs have a context‑window limit (about 4,096 tokens), they may ignore earlier content once that limit is reached.
+
+-OCR for accuracy. Making the PDFs OCR‑searchable lets the AI read every word, even inside diagrams. Without OCR, it would have to guess the text in images.
+
+-One chunk at a time. Feeding PDFs individually keeps the AI focused; combining many chunks in one chat increases the risk of hallucination.
+
+-Web browsing off. Disabling browsing limits hallucinations drawn from the internet. The Box account mirrors only the PDF already provided, so if the AI reaches out, it re‑reads the same file—an approach similar to Retrieval‑Augmented Generation that grounds answers in the source text.
+
+-Prompt repetition. Restating the initial prompt (sometimes along with prior results) reinforces the ruleset and reduces data duplication. Strict, consistent prompts also cut down on variability in the AI’s response
 
 <hr>
 
