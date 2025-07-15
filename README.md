@@ -11,7 +11,9 @@ These prompts are shown in their original form, so some details may not fit ever
 
 -Sources: Official course documentation split into 50‑page, OCR‑searchable PDF chunks
 </ul>
+
 **Workflow (per query):**
+
 <ul>
 -Upload one 50‑page PDF directly to ChatGPT.
 </ul>
