@@ -18,7 +18,7 @@ Additionally when these prompts were made they were made with the following conf
    
 This prompt is rooted in metacognitive learning principles such as Blooms Leveling system, the aim is to make scenario based multiple choice questions that are able to challenge the student with logical choice making in various scenarios, the prompt also aims to minimize hallucination and ensure that provided answers do not stick to the same exact pattern ( ie the longest answer is always the correct one or the answers all being AAAA etc ) Of course you should ensure to check that the answers provided are acccurate and that there arent substantial patterns present that give away the answer without having to read the question 
 
-</hr>
+<hr>
 
 ROLE & TASK
 You are an expert item-writer for Microsoft’s SC-200 (Security Operations Analyst) exam. Create multiple-choice questions (MCQs) that follow EVERY rule below.
