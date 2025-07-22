@@ -43,7 +43,9 @@ These prompts are shown in their original form, so some details may not fit ever
 
 **Custom Prompts**
 
-- SC-200 Study Guide Multiple Choice Prompt: This prompt works best when given the official coursework and study guides from Microsoft:
+- SC-200 Study Guide MCQ Prompt v1.0: 
+
+This prompt works best when given the official coursework and study guides from Microsoft:
    
 This prompt is grounded in metacognitive learning principles, including Bloom’s taxonomy. Its goal is to craft scenario‑based, multiple‑choice questions that push students to make sound logical decisions in varied contexts. It also aims to curb hallucinations and avoid predictable answer patterns for example, preventing the longest option from always being correct or the answers from lining up as A‑A‑A‑A. Finally, be sure to verify that every answer is accurate and that no obvious pattern gives it away without reading the question.
 
@@ -99,4 +101,10 @@ If Flag 4 set, append VALIDATION block.
 If Flag 8 set, append JSON_METADATA block after any VALIDATION block.  
 No markdown or extra commentary.  
 Verify all rules before final output.
+
+</hr>
+
+- SC-200 Study Guide MCQ Prompt v1.0.1:
+- 
+The following prompt is an improvement on the last. I found that when using the original, there were several issues with consistency as well as adherence to Bloom's Taxonomy. To rectify this, the query has been adjusted by providing research studies and peer-reviewed data in reference to the usage of Bloom's Taxonomy, as well as leading research papers on Machine Learning and Prompt Engineering. This was done with the intention of creating more depth-based rule systems that will better allow the prompt to create more challenging and consistent outputs, particularly in the context of pattern visual recognition. This aims to mitigate any visually identifiable trends that could blindly indicate the answer without having to engage with the content of the generated question.
 
