@@ -43,7 +43,7 @@ These prompts are shown in their original form, so some details may not fit ever
 </ul>
 <hr>
 
-**Custom Prompts**
+**Prompts**
 <details>
 <summary><strong>SC-200 Study Guide MCQ Prompt v1.0:</strong></summary>
 
